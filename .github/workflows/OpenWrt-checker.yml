@@ -1,7 +1,7 @@
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 #
-# File: .github/workflows/update-checker.yml
+# File: .github/workflows/OpenWrt-checker.yml
 # Description: Source code update checker
 #
 # Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
@@ -10,10 +10,10 @@
 # See /LICENSE for more information.
 #
 
-name: Update Checker
+name: OpenWrt Checker
 
 env:
-  REPO_URL: https://github.com/x-wrt/x-wrt
+  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
 
 on:
