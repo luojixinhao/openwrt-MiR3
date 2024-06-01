@@ -2,7 +2,6 @@
 
 # 说明
 
-适用于xiaomi miwifi r3
+适用于Xiaomi Mi Router 3
 
-默认IP： 192.168.30.1
 
