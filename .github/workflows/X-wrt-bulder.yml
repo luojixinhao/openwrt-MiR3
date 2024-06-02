@@ -37,6 +37,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 800
 
     steps:
     - name: Checkout
@@ -107,6 +108,7 @@ jobs:
 
     - name: Compile the firmware
       id: compile
+      timeout-minutes: 600
       run: |
         cd x-wrt
         echo -e "$(nproc) thread compile"
