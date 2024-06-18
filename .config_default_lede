@@ -1,7 +1,9 @@
 #
 # Automatically generated file; DO NOT EDIT.
 # OpenWrt Configuration
-# IP: 192.168.30.1
+#
+# setIP:192.168.30.1
+# setCONFIG:.config_default_lede
 #
 CONFIG_MODULES=y
 CONFIG_HAVE_DOT_CONFIG=y
