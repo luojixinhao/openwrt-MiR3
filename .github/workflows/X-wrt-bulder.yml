@@ -11,6 +11,7 @@
 #
 # 帮助：https://blog.x-wrt.com/      https://blog.x-wrt.com/docs/build/
 # 参考：https://docs.github.com/zh/actions/using-workflows/workflow-syntax-for-github-actions
+# 缓存加速：https://github.com/coolsnowwolf/lede/pull/7796
 #
 
 name: 编译X-Wrt
